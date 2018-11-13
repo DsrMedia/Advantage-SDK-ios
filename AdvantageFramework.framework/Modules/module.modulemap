@@ -1,0 +1,6 @@
+framework module AdvantageFramework {
+  umbrella header "AdvantageFramework.h"
+
+  export *
+  module * { export * }
+}
