@@ -13,8 +13,7 @@ Pod::Spec.new do |s|
       'Digitalsunray Media GmbH' => 'advantage@digitalsunray.com'
   }
   s.source     = {
-      :http => 'https://github.com/DsrMedia/Advantage-SDK-ios/raw/master/Advantage.zip',
-      :tag => '1.0.0'
+      :http => 'https://github.com/DsrMedia/Advantage-SDK-ios/raw/master/Advantage.zip'
   }
   s.source_files = 'AdvantageFramework.framework/Headers/*.h'
   s.ios.deployment_target = '9.0'
