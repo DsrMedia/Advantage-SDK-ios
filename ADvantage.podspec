@@ -1,11 +1,12 @@
 Pod::Spec.new do |s|
   s.name       = 'ADvantage'
-  s.version    = '2.5.5.5-test'
+  s.version    = '2.5.5.51-test'
   s.license = {
       :type => 'BSD',
       :file => 'LICENSE'
   }
   s.platform   = :ios
+  s.requires_arc = true
   s.summary    = 'ADvantage - the innovative, rich media mobile advertising platform.'
   s.homepage   = "http://advantage.docs.digitalsunray.com/"
   s.license    = "All rights reserved."
