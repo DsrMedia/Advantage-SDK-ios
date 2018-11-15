@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
       :http => 'https://github.com/DsrMedia/Advantage-SDK-ios/raw/master/Advantage.zip'
   }
   s.source_files = 'AdvantageFramework.framework/Headers/*.h'
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
   s.ios.vendored_framework = 'AdvantageFramework.framework'
 end
