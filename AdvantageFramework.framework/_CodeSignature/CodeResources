@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		u65oINyancla29Glilb5HwxKhIY=
+		</data>
 		<key>EnvironmentVariables.plist</key>
 		<data>
 		IaP9e4rAurMhJn7Ec6nA5SVnmPk=
@@ -30,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		a/ULB0fvDwRvyAwj3cUe06W0Sm8=
+		lghQmcbaVMrKM1ltYncJPURVMCo=
 		</data>
 		<key>JS.bundle/advantage-ios.js</key>
 		<data>
@@ -63,6 +67,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u65oINyancla29Glilb5HwxKhIY=
+			</data>
+			<key>hash2</key>
+			<data>
+			cCkGrsnSLCcArzlEaKi2P2a2vE803j7nKdg38S7IeHk=
+			</data>
+		</dict>
 		<key>EnvironmentVariables.plist</key>
 		<dict>
 			<key>hash</key>
