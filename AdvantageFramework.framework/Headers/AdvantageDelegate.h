@@ -56,7 +56,15 @@ typedef NS_ENUM(NSUInteger, AVLoadedState) {
  * 	\param advantage ADvantage object that Moved.
  * 	\param rect The rect the object resized to.
  */
-- (void)advantage:(nonnull ADvantage *)advantage didUpdateLayoutTo:(CGRect)rect;
+// Deprecation 2019.01.17
+- (void)advantage:(nonnull ADvantage *)advantage didUpdateLayoutTo:(CGRect)rect __deprecated_msg("This method is deprecated, use (void)advantage:(nonnull ADvantage *)advantage didUpdateBannerHeightTo:(CGFloat)height instead.");;
+
+/*!
+ *     Called when the ADvantage objects layout did Moved and Resized.
+ *     \param advantage ADvantage object that Moved.
+ *     \param height The new height the banner should have.
+ */
+- (void)advantage:(nonnull ADvantage *)advantage didUpdateBannerHeightTo:(CGFloat)height;
 
 /*!
  * 	Called when the ADvantage objects did close.
