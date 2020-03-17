@@ -21,6 +21,7 @@
 //sensitive
 @property (nonatomic, assign, getter=isUserLocationAllowed)       BOOL userLocationAllowed;
 @property (nonatomic, assign, getter=isBluetoothAllowed)          BOOL bluetoothAllowed;
+@property (nonatomic, assign, getter=isARAllowed)                 BOOL arAllowed;
 //@property (nonatomic, assign, getter=isNFCAllowed)                BOOL nfcAllowed;
 @property (nonatomic, assign, getter=isBatteryLevelAllowed)       BOOL batteryLevelAllowed;
 @property (nonatomic, assign, getter=isLanguageFullCodeAllowed)   BOOL languageFullCodeAllowed;
