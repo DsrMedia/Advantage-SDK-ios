@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name       = 'ADvantage'
-  s.version    = '2.5.5.3'
+  s.version    = '2.6.0.0'
   s.license = {
       :type => 'BSD',
       :file => 'LICENSE'
@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   }
   s.source_files = 'AdvantageFramework.framework/Headers/*.h'
   s.exclude_files = 'AdvantageFramework.framework/*.plist'
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
   s.ios.vendored_framework = 'AdvantageFramework.framework'
 end

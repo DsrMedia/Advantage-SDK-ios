@@ -32,6 +32,7 @@ typedef enum ADvantageLayoutType : NSUInteger {
 @property (nonatomic, assign) BOOL scrollableBannersEnabled; // modal-views are always scrollable
 @property (nonatomic, assign) BOOL isLoaded; // convenience property that goes along with the didLoad delegate
 @property (nonatomic, strong, readonly, nonnull) Permission *permissions;
+@property (nonatomic, strong, nullable) NSDictionary *fallBackAttributes;
 
 //Banner
 

@@ -50,3 +50,14 @@
 
 
 @end
+
+
+
+//keep:
+//Persönliche Daten
+//Schulbildung
+//Sprachen
+//EDV -> Informatics/programming skills
+//
+//merge:
+//"Abgeschlossene Projekte durch Praktika und Freelance" AND "Praktika" into "Work experience" maybe something better
