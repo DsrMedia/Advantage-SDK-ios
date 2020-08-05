@@ -16,6 +16,8 @@ FOUNDATION_EXPORT const unsigned char AdvantageFrameworkVersionString[];
 
 // This header should contains imports of all the public headers of the framework using statements like #import <AdvantageFramework/PublicHeader.h>
 #import <AdvantageFramework/AdvantageFramework.h>
+#import <AdvantageFramework/DataProtecionRights.h>
+#import <AdvantageFramework/GeneralDataProtecionRights.h>
 #import <AdvantageFramework/ADvantage.h>
 #import <AdvantageFramework/AdvantageDelegate.h>
 #import <AdvantageFramework/Permission.h>

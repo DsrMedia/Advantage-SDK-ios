@@ -7,8 +7,9 @@
 
 #import "AdvantageDelegate.h"
 #import "Permission.h"
+#import "GeneralDataProtecionRights.h"
 
-@class AVPlugin;
+@class AVPlugin, DataProtecionRights;
 
 typedef enum ADvantageLayoutType : NSUInteger {
     kADResponsiveLayout,
@@ -168,6 +169,13 @@ typedef enum ADvantageLayoutType : NSUInteger {
 
 - (void)setCornerAdHorizontalMargin:(CGFloat)margin;
 - (void)setCornerAdVerticalMargin:(CGFloat)margin;
+
+/*!
+ * Sets the dictionary that ADvantage will check for GDPR contend
+ *  so far we only support it for Europe GDPR
+ *  \param dpr this should be set with three keys  { "gdpr" :  BOOL, "gdpr_consent" : NSString, "addtl_consent" : NSString }
+ */
+- (void)setDataProtectionRights:(DataProtecionRights *_Nullable)dpr;
 
 /*!
  * Set debugging for logs.
