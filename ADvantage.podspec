@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name       = 'ADvantage'
-  s.version    = '2.6.0.1'
+  s.version    = '2.6.1.0'
   s.license = {
       :type => 'BSD',
       :file => 'LICENSE'
